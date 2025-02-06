@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    html ,body{
+        overflow-x:hidden;
+        max-width:1440px;
+        margin:0 auto;
+        
+    }
+    
+header
+    {
+        border-style:solid;
+        border-color:purple;
+        background-color: purple;
+        height:20px;
+        max-width:100%;
+        margin:0 auto;
+        
+        
+       
+    }
+    .header h6{
+        Width:1203.96px;
+
+       
+        margin:0 auto;
+        color:white;
+
+    } 
+    .dats{
+        max-width:1203.96px;
+        margin:0 auto;
+
+
+    }
+    
+    .data{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        max-width:1200px;
+        margin:0 auto;
+        
+    }
+    .dat1{
+        display:flex;
+        align-items:center;
+        gap:20px;
+        font-size:12px;
+        
+    }
+    
+    .con-btn{
+        background-color:#ecb40c;
+        border:none;
+        border-radius:5px;
+        height: 40px;
+        color:white;
+        width:100px;
+    }
+    hr{
+        background-color:purple;
+        height:1px;
+    }
+    .all-div
+    {
+
+        display:flex;
+        justify-content: space-between;
+        margin:0 auto;
+       max-width:1440px;
+        
+    }
+    .f-txt{
+        max-width: 1203.96px;
+        
+        
+        margin:0 auto;
+        left:0;
+        margin-left:px;
+        justify-content: space-between;
+
+        
+        
+       
+      
+
+        
+    }
+    .f-txt h1{
+        line-height:14px;
+        font-size:45px;
+        color:purple;
+    }
+    .f-txt h3{
+        line-height:14px;
+        color:black;
+        font-size:25px;
+    }
+    .f-txt h5{
+        color:black;
+        font-size:15px;
+
+    }
+    .vission-sec
+    {
+        background-color: purple;
+        color:white;
+        text-align: center;
+        Width:
+1440px;
+Height:161px;
+        margin-bottom:100px;
+    }
+    .ov
+    { 
+        margin-left:200px;
+        display:flex;
+      max-width:1200px;
+    
+      align-items:center;
+      
+    }
+    .vis-card
+    {
+        display:flex;
+       
+        color:black;
+        gap:15px;
+        justify-content:space-between;
+        max-width:1200px;
+        margin:0 auto;
+        margin-bottom:30px;
+        
+    }
+    .card
+    {
+        background-color:white;
+        border-radius: 5px;
+        Width:
+284px;
+Height:
+174px;
+        flex:1;
+ 
+        box-shadow: 0 2px 5px rgba(0 0 0);
+        
+    }
+    .card img{
+        margin-top:29px;
+    }
+    .u-img
+    {
+        display:flex;
+        
+        margin-top:70px;
+        margin:0 auto;
+        max-width:1200px;
+    }
+    .main
+    {
+        
+        justify-content:space-between;
+        top:2px;
+    }
+    .maindiv
+    {
+        position:relative;
+        top:5px;
+        justify-content:space-between;
+    }
+    .div3
+    {
+        position:absolute;
+    }
+    .div1
+    {
+        display:flex;
+        gap:10px;
+        top:660px;
+    }
+    .div2
+    {
+        position:absolute;
+        margin-left:350px;
+        top:200px;
+    }
+    .div1 h3
+    {
+        color:lightgray;
+    }
+    
+    
+    .word h5
+    {
+        Size:38px;
+Line-height:23px;
+        
+        margin-bottom:10px;
+        margin-top:2px;
+    }
+    .word h6
+    {Size:29px;
+Line-height:20px;
+        
+    }
+    .word h3
+    {  Size:36px;
+Line-height:36.45px;
+        font-size:29px;
+        color:purple;
+       
+        margin-bottom:1px;
+    }
+    .word{
+      
+        margin:0 auto;
+       max-width:1000px;
+       margin-left:210px;
+     
+        
+        
+
+    }
+    .full
+    {
+     
+        display:flex;
+        margin: 0 auto;
+        justify-items: center;
+        justify-content:space-between;
+      
+        
+       
+    }
+    .dimg{
+        margin-left:200px;
+    }
+    .div4
+    {
+        justify-content:space-between;
+        padding-top:290px;
+        
+    }
+    .word1
+    {
+        position:relative;
+    }
+    .newimg
+    {
+        position:absolute;
+        left:580px;
+        top:100px;
+    }
+    .diagram
+    {
+        width: 1468.92px;
+height: 573px;
+top: 1316.5px;
+gap: 0px;
+opacity: 0px;
+
+        background-color: rgb(247, 242, 242);
+        height:450px;
+        margin-top:20px;
+        width:100%;
+        margin-top:30px;
+        
+        
+    }
+    .flex
+    {
+        
+        display: flex;
+        margin-top:20px;
+        justify-content:space-between;
+        align-items:center;max-width:1200px;
+        margin:0 auto;
+        margin-top:30px;
+        
+        
+
+   
+    }
+    .para
+    {
+        margin-top:30px; 
+   margin-bottom:15px;
+        display:flex;
+        align-items:center;
+    } 
+    .block
+    {
+       
+
+
+        max-width:1200px;
+        display:flex;
+        justify-content: space-between;
+        flex:1;
+        gap:10px;
+        margin:0 auto;
+        
+    }
+    .block1 h5
+    {
+        font-size:17px;
+        margin-top:1px;
+        margin-left:8px;
+    }
+    .block1
+    {
+        background-color:white;
+        border-radius: 5px;
+        height:300px;
+        flex:1;
+        
+        max-width:370px ;
+        box-shadow: 0 2px 5px rgba(0 0 0);
+       
+        justify-content: space-between;
+    }
+    .posat
+    {
+        margin-top:55px;
+    } 
+    .button
+    {
+      align-items: center;
+        margin-top:6px;
+        margin-bottom:5px;
+    }
+    .right
+    {
+        background-color: purple;
+        border:none;
+        border-radius:2px;
+        height:40px;
+        width:40px;
+        color:white;
+    }
+    .block1 p{
+        margin-left:8px;
+    }
+    .block1 button{
+margin-left:7px;
+    }
+    span
+    {
+        color:purple;
+    }
+    .para p{
+        font-size:24px;
+    }
+
+    .txt
+    {
+        margin:0 auto;
+        text-align: center;
+        color:purple;
+        font-size:24px;
+        max-width: 1200px;
+        padding-bottom:20px;
+    }
+    .circle{
+      
+        padding-top:20px;
+      width:100%;
+    }
+    .circle1
+    {
+        max-width:1200px;
+        display:flex;
+        margin:0 auto;
+        
+        
+       
+    }
+    .circle3
+    {
+        margin-left:5px;
+        padding-top:100px;
+       
+    }
+    .circle2
+    {
+        max-width:1200px;
+        margin:0 auto;
+      
+       
+    }
+    
+    .cr{
+            
+           justify-items: center;
+           justify-content: space-between;
+           
+        }
+    .cr1
+    {
+        justify-items: center;
+        font-size:17px;
+
+    }
+    .footer
+    {
+        background-color: purple;
+        color:white;
+        height:400px;
+    }
+    .line2
+    {
+        flex:1;
+        display:flex;
+        background-color: purple;
+        max-width:1200px;
+        margin:0 auto;
+    }
+
+    nav ol
+    {
+        list-style-type:none;
+        display:flex;
+    
+        color:white;
+        justify-items: center;
+        gap:9px;
+    }
+    nav li
+    {
+        justify-content: space-between;
+        font-size:12px;
+    }
+      
+    
+    .white
+    {
+        margin:0 auto;
+        display:flex;
+        justify-content: space-between;
+        background-color: white;
+        height:80px;
+        max-width:1200px;
+        align-items: center;
+    }
+    .white1
+    {
+        margin-right:20px;
+        text-align:center;
+        justify-content: space-between;
+        margin-left:20px;
+
+    }
+    .white1 h6
+    {
+        font-size:20px;
+        color:purple
+    }
+    .lastdiv
+    {
+        display:flex;
+        margin:0 auto;
+        display:flex;
+        
+        background-color: white;
+        height:200px;
+        max-width:1200px;
+        background-color:rgb(167, 37, 167);
+    }
+    .mobile
+    {
+        
+      margin:0 auto;
+        align-content:center;
+    }
+    .copy
+    {
+        display:flex;
+       max-width:1200px;
+       margin:0 auto;
+       justify-content: space-between;
+       
+        
+    }
+    .cpy
+    {
+        font-size:12px;
+       
+    }.f-txt3{
+        margin-left:12px;
+max-width:1200px;
+margin:0 auto;
+display:flex;
+margin-right:2px;
+
+    }
+    .f-txt1{
+       
+        position:relative;
+    }
+    .f-txt4{
+        position:relative;
+        display:flex;
+        
+       
+    }
+    .donate {
+                display: flex;
+                justify-content: space-between;
+                position:relative;
+            }
+
+            .one {
+                position: absolute;
+                left: 9%;
+                top: 15%;
+            }
+            .f-txt h1 {
+                line-height:9px;
+                font-size: 42px;
+                color: purple;
+            }
+
+            .f-txt h4 {
+                font-size: 27px;
+                line-height: 75px;
+            }
+
+            .f-txt h5 {
+                font-size: 19px;
+            }
+            .c-img {
+                position: absolute;
+                right: 8%;
+                top: 20%;
+            }
+    
+    
+    
+    
+    
+
+</style>
+</head> 
+<body><section class="header">
+    <header>
+        <h6>Helpline:805063677</h6>
+</section>
+
+ 
+
+<section class="datas">
+    <div class="data">
+
+        <div class="in"> <img src="C:\Users\dell\Downloads\Group 46.png"/></div>
+        <div class="dat1">
+        <div class="dat">Home</div>
+        <div class="dat">About Us</div>
+        <div class="dat">Health Support Program</div>
+        <div class="dat">Get Involved</div>
+        <div class="dat">Contact Us</div>
+        </div>
+        <div class="on"> <button class="con-btn">Contact Us</button></div>
+
+    </div>
+    <hr />
+</section>
+
+
+<main>
+  
+    
+    
+    <section class="donate">
+        <img src="C:\Users\Dell\Downloads\Group 57.png" class="i2" />
+        <div class="one">
+            <div class="f-txt">
+
+                <h1>Sanjeevini Cancer Seva Trust</h1>
+                <h4>With You in Every Step Of Cancer Care</h4>
+                <h5>Donate Now to Help People with Cancer</h5>
+                <button class="con-btn">Donate Now</button>
+            </div>
+
+        </div>
+        <div class="c-img"> <img src="C:\Users\Dell\Downloads\Group 52.png" height="200" width="300" /></div>
+        <img src="C:\Users\Dell\Downloads\Group 58.png" class="i4" />
+    </section>
+
+    
+
+    <section class="vission-sec">
+        <div class="ov">
+            <div><img src="C:\Users\dell\Downloads\Group 111.png" width="463"/></div>
+            <div><h2>Our Vission</h2></div>
+            <div><img src="C:\Users\dell\Downloads\Group 110.png" width="463"/></div>
+        </div>
+        <div class="vis-card">
+            <div class="card">
+                <img src="C:\Users\dell\Downloads\Frame (2).png"/>
+                <p>Support People with<br/> Cancer</p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\dell\Downloads\Frame.png"/>
+                <p>Provide Financial Assistance <br/>in Cancer Diagnostic & <br/>Treatment</p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\dell\Downloads\Frame (4).png"/>
+                <p>Conduct Educational<br/> Workshop</p>
+            </div>
+            <div class="card">
+                <img src="C:\Users\dell\Downloads\Frame (5).png"/>
+                <p>Increase Community <br/>Outreach To Create<br/> Awarness</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="u-img">
+        <div class="main">
+            <div class="maindiv">
+                <div class="div3"><img src="C:\Users\dell\Downloads\image.png"/></div>
+                <div class="div2"><img src="C:\Users\dell\Downloads\Group 53.png"/></div>
+            </div>
+        
+        <div class="div4">
+            <div class="div1">
+                <div><img src="C:\Users\dell\Downloads\Group 54.png"/></div>
+                <div><h3>SANJEEVINI</h3></div>
+            </div>
+        </div>
+        </div>
+        <div class="full">
+            <div class="word1">
+                <div class="newimg">
+                    <img src="C:\Users\dell\Downloads\image 4.png"/ height="200" width="200">
+                </div>
+            <div class="word">
+                <h3>Our Mission</h3>
+                <h5><b><font-size="2">At Sanjeevini Cancer Seva Trust,We are devoted to providing compassionate<br/> care and essential 
+                support for cancer pateints.</font-size></b></h5>
+                <h6>We strive to offer both practicle assistance and emotional comfort,ensuring
+                 that tose in<br/> nedd recieve the help and resources necessary during this challenging time.</h6>
+          
+        
+        
+              <button class="con-btn">Read More</button>
+            </div>
+            </div>
+    </div>
+
+</section>
+
+
+<section class="diagram">
+    
+    <div class="flex">
+            <div class="para">
+                <img src="C:\Users\dell\Downloads\Group 14 (2).png"/>
+           
+                <p><span>Our</span> Health Support program</p>
+            </div>
+            <div class="button">
+                <button class="right"><</button>
+                <button class="right">></button>
+
+            </div>
+            
+       </div>
+            <div class="block">
+                <div class="block1">
+                    <img src="C:\Users\dell\Downloads\Group 59.png" />
+                  <b>  <h5>Aasare</h5></b>
+                    <p font size="4">
+                        Donation of ₹1per day(₹365 rs per day)</br>entitled for the support of cancer care up to </br>₹3lacs per year for 1 person
+                    </p>
+                    <button class="con-btn">View details</button>
+        
+                </div>
+                <div class="block1">
+                    <img src="C:\Users\dell\Downloads\Group 59 (1).png" />
+        
+                    <b> <h5>Abhaya</h5></b>
+                    <p font size="4">
+                        Donation ₹5 per day(₹1825 rs per day)<br />entitled for the support of cancer care up to<br />₹10 lacs per year for 1 person
+                    </p>
+                    <button class="con-btn">View details</button>
+                    
+                </div>
+                <div class="block1">
+                    <img src="C:\Users\dell\Downloads\Group 59 (2).png" />
+        
+                    <b>  <h5>Donate any amount</h5></b>
+                    <p font-size="4">
+                        support of people with cancer
+                    </p>
+                    <div class="posat">
+                    <button class="con-btn">Donate Now</button>
+                </div>
+        
+                </div>
+                
+            </div>
+        </div>
+        </section>
+
+
+
+
+        <section class="circle">
+            <div class="txt">
+                How we can Help
+            </div>
+            <div class="circle1">
+                <div class="circle2">
+                    <img src="C:\Users\dell\Downloads\Group 82.png" height="200" width="200"/>
+                    <div class="cr">
+                    <p font size="5"><b>Read Our Health Support Program</b></p>
+                    </div>
+                    <div class="cr1">
+                    <h6>Review the detail of our health <br/>Support Program And Services</h6>
+                </div>
+        
+                </div>
+                <div class="circle3">
+                    <img src="C:\Users\dell\Downloads\vector 1.png" />
+                    </div>
+                <div class="circle2">
+                    <img src="C:\Users\dell\Downloads\Group 83.png" height="200" width="200"/>
+                    <div class="cr">
+        <p font size="5"><b>Contact us</b></p></div>
+        <div class="cr1">
+        <h6>Reach Out to discuss how we can assist you<br/>or your loved ones</h6>
+        </div>
+                </div>
+                <div class="circle3">
+                    <img src="C:\Users\dell\Downloads\vector 1.png"/>
+                    </div>
+                <div class="circle2">
+                    <img src="C:\Users\dell\Downloads\Group 84.png" height="200" width="200"/>
+                    <div class="cr">
+        <p font size="6"><b>Stay Informed</b></h4></p></div>
+        <div class="cr1">
+        <h6>Follow Our updates for the latest information<br/>On our progress and services</h6>
+        </div>
+                </div>
+                
+            </div>
+            </section>
+
+
+
+
+            <section class="footer">
+                <footer class="li">
+                    <div class="line2">
+                        <div><img src="C:\Users\dell\Downloads\Group 111.png" width="250px"/></div>
+                    <div  class="line3"><nav><ol>
+                    
+                                <li>Home</li>
+                        
+                                <li>About Us</li>
+                                <li>Health Support Program </li>
+                                <li>Get Involved</li>
+                                <li>Contact Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div><img src="C:\Users\dell\Downloads\Group 110.png"/></div>
+                    
+                   </div>
+                   
+                <section class="box">
+                   <div class="white">
+                    <div class="white1">
+                        <img src="C:\Users\dell\Downloads\Group 46.png"/>
+                    </div>
+                    <div class="white1"> <img src="C:\Users\dell\Downloads\Line 7.png"/ height="50"></div>
+                    <div class="white1">
+                <h6 font size="1">With You in Every step Of Cancer Care</h6>
+                    </div>
+                    <div class="white1"> <img src="C:\Users\dell\Downloads\Line 7.png"/ height="50"></div>
+                    <div class="white1"><button class="con-btn">Contact Us</button> </div>
+                   </div>
+                
+                
+                   <div class="lastdiv">
+                    <div class="mobile">
+                <img src="C:\Users\dell\Downloads\edgesensor_high.png"/>
+                <h5>8050636777</h5>
+                    </div>
+                    <div class="mobile"> <img src="C:\Users\dell\Downloads\Line 7.png"/ height="100"></div>
+                
+                    <div class="mobile">
+                        <img src="C:\Users\dell\Downloads\attach_email.png"/> 
+                        <h5>sanjeevinicancerseva@gmail.com</h5> 
+                    </div>
+                    <div class="mobile"> <img src="C:\Users\dell\Downloads\Line 7.png"/ height="100"></div>
+                    
+                    <div class="mobile">
+                        <img src="C:\Users\dell\Downloads\distance.png"/>
+                        <h5>Mangalore Institute of Oncology<br/>Pumpwell, Mangaluru<br/>Dakshina Kannada<br/>575002</h5>
+                    </div>
+                   </div>
+                </section>
+                   <div class="copy">
+                    <div class="cpy">Designed & Developed by Chipsy it Services Pvt. Ltd.</div>
+                    <div class="cpy">Copyright: © 2024 Sanjeevini Cancer Care Trust</div>
+                   </div>
+                </footer>
+                </section>
+</body>
+</html>
